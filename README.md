@@ -21,7 +21,7 @@ To test, use the ./test_server.bash script. This test script assumes you have 'c
 you can test the server by using an API tool of your choice.
 
 ### Anatomy
-The project is organized with basic test tools, requirements, and the README all residing at the top level of the webserver/ directory.
+The project is organized with basic test tools and requirements residing at the top level of the webserver/ directory.
 
 The source code is contained in the src/ directory.
 
@@ -39,3 +39,21 @@ Takes a JSON object of the following form as input:
 }
 
 ## login-page
+
+### Installation
+To use this project, you need to have npm >= 6.13.4.
+
+In the login-page directory, run 'npm install' to install the necessary packages to run the application.
+Once installed, run 'npm start' to start the local web server. This will then allow you to access the application on localhost:3000. It should open your default browser and direct you there automatically.
+
+### Anatomy
+The project is contained in the login-page/ directory.
+
+The source code is contained in the src/ directory
+
+The node_modules/ directory will be created when you run 'npm install'
+
+src/App.js is where the main application code is. src/App.css is where the main application styling is.
+
+### Configuration
+This project requires no configuration. It defaults to running on localhost:3000
