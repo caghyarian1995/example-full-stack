@@ -26,7 +26,7 @@ The server requires no configuration. It is hard coded to run on localhost:23456
 
 # API Documentation
 
-POST /api/encode
+POST /api/encode  
 Takes a JSON object of the following form as input:
 {
     Message: A String to be encoded
