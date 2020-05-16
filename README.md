@@ -26,11 +26,9 @@ The server requires no configuration. It is hard coded to run on localhost:23456
 
 # API Documentation
 
-POST /api/encode
+POST /api/encode  
 Takes a JSON object of the following form as input:
 {
     Message: A String to be encoded
-    Shift: An# webserver
-
-This is a simple REST API server with a single endpoint for the purpose of showcasing how to implement a barebones
-server in Flask.
+    Shift: An Integer containing the number of alphabet spaces to shift the message.
+}
