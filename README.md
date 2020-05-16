@@ -21,7 +21,7 @@ To test, use the ./test_server.bash script. This test script assumes you have 'c
 you can test the server by using an API tool of your choice.
 
 ### Anatomy
-The project is organized with basic test tools, requirements, and the README all residing at the top level of the directory.
+The project is organized with basic test tools, requirements, and the README all residing at the top level of the webserver/ directory.
 
 The source code is contained in the src/ directory.
 
