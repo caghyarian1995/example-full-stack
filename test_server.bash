@@ -1,0 +1,1 @@
+curl -X POST -d '{"Message":"this is a test message", "Shift": -1}' -H 'Content-Type: application/json' http://127.0.0.1:23456/api/encode
